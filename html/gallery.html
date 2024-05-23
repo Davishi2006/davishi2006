@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <title>Davis Home Improvement</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/gallery.css">
+</head>
+
+<body>
+  <!-- Wrapper -->
+  <div id="wrapper">
+
+    <!-- Header -->
+    <section class="header-container">
+      <header id="header">
+        <img src="../img/logo.png" alt="DavisHomeImprovement Logo" class="logo">
+        <div class="header-nav-container">
+          <p>Call today for your FREE Quote  <strong>919.538.9919</strong></p>
+          <nav class="hamburger-menu">
+            <div class="hamburger-icon">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+            <ul class="hamburger-menu-items">
+              <li><a href="../">home</a></li>
+              <li><a href="services.html">services</a></li>
+              <li><a href="gallery.html">gallery</a></li>
+            </ul>
+          </nav>
+          <nav class="site-menu">
+            <ul class="site-menu-items">
+              <li><a href="../">home</a></li>
+              <li><a href="services.html">services</a></li>
+              <li><a href="gallery.html">gallery</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <hr>
+    </section>
+
+    <!-- Gallery -->
+    <article id="gallery">
+      <div class="gallery-wrapper">
+        <header class="article-header">
+          <h2>Project Gallery</h2>
+          <p>Click on the topics to see related project photos. </p>
+        </header>
+
+        <!-- Gallery navigation -->
+        <section class="nav-wrapper">
+          <button class="nav-btn active">All</button>
+          <button class="nav-btn">Interior</button>
+          <button class="nav-btn">Exterior</button>
+          <button class="nav-btn">Floors</button>
+          <button class="nav-btn">Carpentry</button>
+          <button class="nav-btn">Remodel</button>
+          <!-- Alt button combo: Paint, Floors, Decks, Repair, Remodel -->
+        </section>
+
+        <!-- Portfolio gallery grid -->
+        <section class="gallery-img-wrapper">
+          <div class="row">
+
+            <!-- Remodel content -->
+            <div class="column remodel cabinets kitchen carpentry">
+              <div class="column-content">
+                <img src="../img/gallery/remodel/Kitchen 1.jpg" alt="Kitchen 1.jpg" class="gallery-img" onclick="openGalleryModal('../img/gallery/remodel.Kitchen 1.jpg')">
+                <h4>Kitchen Remodel</h4>
+                <p>
+                  Remodeled kitchen including creating framing opening to dining room, removing upper cabinets, installing shiplap stove hood vent, making and installing 
+                  countertops, new drop-in sink and painting cabinets.
+                </p>
+              </div>
+            </div>
+            <div class="column remodel cabinets kitchen carpentry">
+              <div class="column-content">
+                <img src="../img/gallery/remodel/pantry_before_after.jpg" alt="Pantry finished 2.jpg" class="gallery-img" onclick="openGalleryModal('../img/gallery/remodel/pantry_before_after.jpg')">
+                <h4>Pantry Remodel</h4>
+                <p>Moved existing laundry room to another location in the home.  Made cabinets and countertops, hung shelving, installed ladder, painted cabinets.</p>
+              </div>
+            </div>
+
+            <!-- Interior content-->
+            <div class="column interior repair drywall">
+              <div class="column-content">
+                <img src="../img/gallery/interior/Ceiling repair and paint.jpg" alt="Ceiling repair and paint.jpg" class="gallery-img" onclick="openGalleryModal('../img/gallery/interior/Ceiling repair and paint.jpg')">
+                <h4>Ceiling Repair and Paint</h4>
+                <p>Cut out and replaced drywall on ceiling where water damage occurred.  Finished drywall and painted ceiling.</p>
+              </div>
+            </div>
+            
+            <!-- Floors content-->
+            <div class="column floors tile bath">
+              <div class="column-content">
+                <img src="../img/gallery/floors/Bathroom floor tile 1.jpg" alt="Bathroom floor tile 1.jpg" class="gallery-img" onclick="openGalleryModal('../img/gallery/floors/Bathroom floor tile 1.jpg')">
+                <h4>Bathroom Tile Floor</h4>
+                <p>Removed toilet, pedestal sink and old vinyl flooring.  Installed backer board and tile.  Grouted tile.  Reset toilet and pedestal sink.</p>
+              </div>
+            </div>
+            <div class="column floors tile bath">
+              <div class="column-content">
+                <img src="../img/gallery/floors/Bathroom floor tile 2.jpg" alt="Bathroom floor tile 2.jpg" class="gallery-img" onclick="openGalleryModal('../img/gallery/floors/Bathroom floor tile 2.jpg')">
+                <h4>Bathroom Tile Floor</h4>
+                <p>Removed toilet and old tile flooring.  Installed backer and tile.  Grouted tile.  Reinstalled toilet.</p>
+              </div>
+            </div>
+            <div class="column floors lvp bath interior repair">
+              <div class="column-content">
+                <img src="../img/gallery/floors/Bathroom LVP 4.jpg" alt="Bathroom LVP 4.jpg" class="gallery-img" onclick="openGalleryModal('../img/gallery/floors/Bathroom LVP 4.jpg')">
+                <h4>Bathroom LVP Floor</h4>
+                <p>Repaired water damaged subfloor.  Installed new LVP flooring.  Installed toilet.</p>
+              </div>
+            </div>
+            <div class="column shower tile bath floors">
+              <div class="column-content">
+                <img src="../img/gallery/floors/Shower wall tile 1.jpg" alt="Shower wall tile 1.jpg" class="gallery-img" onclick="openGalleryModal('../img/gallery/floors/Shower wall tile 1.jpg')">
+                <h4>Shower Tile Wall</h4>
+                <p>Removed old tile shower walls.  Installed backer board, niche, tiled and grouted shower.  Installed shower hardware.</p>
+              </div>
+            </div>
+            <div class="column floors LVP kitchen floors">
+              <div class="column-content">
+                <img src="../img/gallery/floors/Kitchen LVP 1.jpg" alt="Kitchen LVP 1.jpg.jpg" class="gallery-img" onclick="openGalleryModal('../img/gallery/floors/Kitchen LVP 1.jpg')">
+                <h4>Kitchen LVP Floor</h4>
+                <p>Removed old torn vinyl flooring.  Installed LVP.</p>
+              </div>
+            </div>
+          
+            <!-- Exterior content -->
+            <div class="column exterior decks">
+              <div class="column-content">
+                <img src="../img/gallery/exterior/Clean and seal 2.jpg" alt="Clean and seal 2.jpg" class="gallery-img" onclick="openGalleryModal('../img/gallery/exterior/Clean and seal 2.jpg')">
+                <h4>Deck Clean and Seal</h4>
+                <p>Cleaned deck, pressure washing and mildew and debris.  Applied deck sealer.</p>
+              </div>
+            </div>
+            <div class="column exterior decks carpentry">
+              <div class="column-content">
+                <img src="../img/gallery/exterior/Deck build.jpg" alt="Deck build.jpg" class="gallery-img" onclick="openGalleryModal('../img/gallery/exterior/Deck build.jpg')">
+                <h4>Deck Build</h4>
+                <p>Removed old decayed deck.  Installed new deck, handrails and stairs.</p>
+              </div>
+            </div>
+            <div class="column paint exterior siding trim repair carpentry">
+              <div class="column-content">
+                <img src="../img/gallery/exterior/House_repair_before_after.jpg" alt="House_repair_before_after.jpg" class="gallery-img" onclick="openGalleryModal('../img/gallery/exterior/House_repair_before_after.jpg')">
+                <h4>House Repair and Paint</h4>
+                <p>Repaired rotten siding and trim on home.  Full exterior house paint.</p>
+              </div>
+            </div>
+            <div class="column exterior decks carpentry paint">
+              <div class="column-content">
+                <img src="../img/gallery/exterior/Porch post replace paint and deck seal 4.jpg" alt="Porch post replace paint and deck seal 4.jpg" class="gallery-img" onclick="openGalleryModal('../img/gallery/exterior/Porch post replace paint and deck seal 4.jpg')">
+                <h4>Deck Rehab</h4>
+                <p>Replaced 3 rotten porch posts.  Installed railings.  Pressure washed cleaning deck and handrails.  Applied deck sealer to decking and painted posts and handrails.</p>
+              </div>
+            </div>
+            <div class="column exterior decks carpentry paint">
+              <div class="column-content">
+                <img src="../img/gallery/exterior/Porch rebuild Trex 1.jpg" alt="Porch rebuild Trex 1.jpg" class="gallery-img" onclick="openGalleryModal('../img/gallery/exterior/Porch rebuild Trex 1.jpg')">
+                <h4>Porch Rehab</h4>
+                <p>Removed old damaged porch steps and landing.  Framed new porch stairs.  Installed Trex decking and handrails.</p>
+              </div>
+            </div>
+            <div class="column exterior decks carpentry paint">
+              <div class="column-content">
+                <img src="../img/gallery/exterior/Shed build.jpg" alt="Shed build.jpg" class="gallery-img" onclick="openGalleryModal('../img/exterior/Shed build.jpg')">
+                <h4>Shed Build</h4>
+                <p>Built 16x10 shed with side overhang.</p>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <div class="modal-overlay" onclick="closeGalleryModal()"></div>
+        <div id="modal" class="modal">
+          <span class="modal-close" onclick="closeGalleryModal()">&times;</span>
+          <img src="" alt="Image" class="modal-content">
+        </div>
+      </div>
+    </article>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <p class="copyright">&copy; Davis Home Improvment, LLC</p>
+    </footer>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="../js/scripts.js"></script>
+  <script src="../js/gallery.js"></script>
+</body>
+</html>

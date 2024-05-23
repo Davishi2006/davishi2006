@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <title>Davis Home Improvement</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/services.css">
+</head>
+
+<body>
+  <!-- Wrapper -->
+  <div id="wrapper">
+
+    <!-- Header -->
+    <section class="header-container">
+      <header id="header">
+        <img src="../img/logo.png" alt="DavisHomeImprovement Logo" class="logo">
+        <div class="header-nav-container">
+          <p>Call today for your FREE Quote  <strong>919.538.9919</strong></p>
+          <nav class="hamburger-menu">
+            <div class="hamburger-icon">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+            <ul class="hamburger-menu-items">
+              <li><a href="../">home</a></li>
+              <li><a href="services.html">services</a></li>
+              <li><a href="gallery.html">gallery</a></li>
+            </ul>
+          </nav>
+          <nav class="site-menu">
+            <ul class="site-menu-items">
+              <li><a href="../">home</a></li>
+              <li><a href="services.html">services</a></li>
+              <li><a href="gallery.html">gallery</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <hr>
+    </section>
+
+    <!-- Services -->
+    <article id="services">
+      <div class="services-wrapper">
+        <header class="article-header">
+          <h2>Home Maintenance and Repair Services</h2>
+          <p>Click on the services to see related descriptions. </p>
+        </header>
+
+        <!-- Services navigation light box -->
+        <section class="services-nav-wrapper">
+          <div class="lightbox-arrow left-arrow" onclick="scrollServices('left')">&#9664;</div>
+          <ul class="services-list">
+            <li class="lightbox-container">
+              <img src="../img/lightbox/interior.JPG" alt="InteriorRepair">
+              <div class="lightbox-overlay">
+                <h2 class="lightbox-title">Interior Repair</h2>
+                <p class="lightbox-description">drywall, trim, doors, floors, paint</p>
+                <a href="#interior" class="lightbox-button">Learn More</a>
+              </div>
+            </li>
+            <li class="lightbox-container">
+              <img src="../img/lightbox/exterior.jpg" alt="ExteriorRepair">
+              <div class="lightbox-overlay">
+                <h2 class="lightbox-title">Exterior Repair</h2>
+                <p class="lightbox-description">siding, trim, doors, windows, paint</p>
+                <a href="#exterior" class="lightbox-button">Learn More</a>
+              </div>
+            </li>
+            <li class="lightbox-container">
+              <img src="../img/lightbox/carpentry.jpg" alt="Carpentry">
+              <div class="lightbox-overlay">
+                <h2 class="lightbox-title">Carpentry</h2>
+                <p class="lightbox-description">framing, decks, porches, fences, sheds</p>
+                <a href="#carpentry" class="lightbox-button">Learn More</a>
+              </div>
+            </li>
+            <li class="lightbox-container">
+              <img src="../img/lightbox/floors.jpg" alt="Floors">
+              <div class="lightbox-overlay">
+                <h2 class="lightbox-title">Floors</h2>
+                <p class="lightbox-description">tile, lvp, vinyl, hardwoods, carpet</p>
+                <a href="#floors" class="lightbox-button">Learn More</a>
+              </div>
+            </li>
+            <li class="lightbox-container">
+              <img src="../img/lightbox/remodel.jpg" alt="Remodel">
+              <div class="lightbox-overlay">
+                <h2 class="lightbox-title">Remodel</h2>
+                <p class="lightbox-description">kitchens, baths, closets, laundry, bonus rooms</p>
+                <a href="#remodel" class="lightbox-button">Learn More</a>
+              </div>
+            </li>
+            <li class="lightbox-container">
+              <img src="../img/lightbox/restoration.jpg" alt="Restoration">
+              <div class="lightbox-overlay">
+                <h2 class="lightbox-title">Restoration</h2>
+                <p class="lightbox-description">water/wind damage, crawlspace, insulation</p>
+                <a href="#restoration" class="lightbox-button">Learn More</a>
+              </div>
+            </li>
+          </ul>
+          <div class="lightbox-arrow right-arrow" onclick="scrollServices('right')">&#9654;</div>
+        </section>
+
+        <!-- Portfolio of services -->
+        <section class="services-spotlight-wrapper">
+
+          <!-- Interior Repair -->
+          <section id="interior" class="interior">
+            <div class="row img-right">
+              <div class="img-wrapper">
+                <img src="../img/services/interior.jpg" alt="InteriorImage">
+              </div>
+              <div class="text-wrapper">
+                <h2>Interior Repair</h2>
+                <div class="text-details">
+                  <p>
+                    From finishing drywall, trim and painting to replacing flooring
+                    and doors, we can accommodate your every interior need.
+                  </p>                  
+                </div>
+                <div class="btn-wrapper">
+                  <a href="#header" class="row-button">Back to Top</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Exterior Repair -->
+          <section id="exterior" class="exterior">
+            <div class="row">
+              <div class="img-wrapper">
+                <img src="../img/services/exterior.jpg" alt="ExteriorImage">
+              </div>
+              <div class="text-wrapper">
+                <h2>Exterior Repair</h2>
+                <div class="text-details">
+                  <p>
+                    From repairing or replacing siding, trim, doors and windows
+                    to full exterior house painting, we have you covered!
+                  </p>
+                </div>
+                <div class="btn-wrapper">
+                  <a href="#header" class="row-button">Back to Top</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Carpentry -->
+          <section id="carpentry" class="carpentry">
+            <div class="row img-right">
+              <div class="img-wrapper">
+                <img src="../img/services/carpentry.jpg" alt="CarpentryImage">
+              </div>
+              <div class="text-wrapper">
+                <h2>Carpentry</h2>
+                <div class="text-details">
+                  <p>
+                    From relocating walls and adding headers to repairing or
+                    building decks, porches adn sheds we've got it handled!
+                  </p>
+                </div>
+                <div class="btn-wrapper">
+                  <a href="#header" class="row-button">Back to Top</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Floors -->
+          <section id="floors" class="floors">
+            <div class="row">
+              <div class="img-wrapper">
+                <img src="../img/services/floors.jpg" alt="FloorsImage">
+              </div>
+              <div class="text-wrapper">
+                <h2>Floors</h2>
+                <div class="text-details">
+                  <p>
+                    We expertly lay down tile, LVP, vinyl, hardwood and carpet
+                    flooring to match your room needs.
+                  </p>
+                </div>
+                <div class="btn-wrapper">
+                  <a href="#header" class="row-button">Back to Top</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Remodel -->
+          <section id="remodel" class="remodel">
+            <div class="row img-right">
+              <div class="img-wrapper">
+                <img src="../img/services/remodel.jpg" alt="RemodelImage">
+              </div>
+              <div class="text-wrapper">
+                <h2>Remodel</h2>
+                <div class="text-details">
+                  <p>From kitchens, baths and laundry to closets, bonus and unfinished rooms.</p>
+                  <p>Includes framing, drywall, cabinets, trim, paint, floors, doors and windows.</p>
+                </div>
+                <div class="btn-wrapper">
+                  <a href="#header" class="row-button">Back to Top</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Restoration -->
+          <section id="restoration" class="restoration">
+            <div class="row">
+              <div class="img-wrapper">
+                <img src="../img/services/restoration.jpg" alt="RestorationImage">
+              </div>
+              <div class="text-wrapper">
+                <h2>Restoration</h2>
+                <div class="text-details">
+                  <p>
+                    Water and wind damage, crawlspace improvements and insulation.
+                  </p>
+                </div>
+                <div class="btn-wrapper">
+                  <a href="#header" class="row-button">Back to Top</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        </section>
+      </div>
+    </article>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <p class="copyright">&copy; Davis Home Improvment, LLC</p>
+    </footer>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="../js/scripts.js"></script>
+  <script src="../js/services.js"></script>
+</body>
+</html>
